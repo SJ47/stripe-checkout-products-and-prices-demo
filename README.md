@@ -19,7 +19,7 @@ From a terminal window
 ## Stripe Setup
 
 Create a `.env` file in the server directory to store your Stripe secret key.\
-This should be in the format: `REACT_APP_STRIPE_SECRET_KEY=insert_your_own_Stripe_secret_key_here`\
+This should be in the format: `REACT_APP_STRIPE_SECRET_KEY=insert_your_own_Stripe_secret_key_here`
 
 Create some products and prices in your Stripe dashboard so you have some products to retrieve.
 
@@ -28,4 +28,6 @@ In the main project directory, you run:
 `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\
+Open [http://localhost:4242/retrieve-products](http://localhost:4242/retrieve-products) to view products in JSON format in the browser.\
+Open [http://localhost:4242/retrieve-prices](http://localhost:4242/retrieve-prices) to view prices in JSON format in the browser.\
