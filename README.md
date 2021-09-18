@@ -1,10 +1,12 @@
 # Stripe demo using prebuilt checkout and using React and Node Express
 
+### This very basdic demo is to show how to retrieve products and prices stored in Stripe
+
 ## Basic instructions
 
 Clone repo
 
-From a terminal window 
+From a terminal window
 
 `cd client`
 
@@ -16,9 +18,10 @@ From a terminal window
 
 ## Stripe Setup
 
-Update server.js file with your own Stripe key
+Create a `.env` file in the server directory to store your Stripe secret key.\
+This should be in the format: `REACT_APP_STRIPE_SECRET_KEY=insert_your_own_Stripe_secret_key_here`\
 
-`const stripe = require('stripe')('YOUR_SK_TEST_KEY_GOES_HERE')`
+Create some products and prices in your Stripe dashboard so you have some products to retrieve.
 
 In the main project directory, you run:
 
